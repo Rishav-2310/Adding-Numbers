@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: aqua;
+    position: relative;
+}
+.parentDiv{
+    height: 400px;
+    width: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+}
+.childDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+p{
+    color: aqua;
+    font-size: 30px;
+}
+input, textarea, button{
+    height: 30px;
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid aqua;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+}
+button{
+    color: aqua;
+}
+button:hover{
+    color: #fff;
+    background-color: aqua;
+}
